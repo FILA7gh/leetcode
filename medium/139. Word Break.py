@@ -11,7 +11,7 @@
 # hz pochemu net
 
 class Solution:
-    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+    def wordBreak(self, s: str, wordDict: list[str]) -> bool:
 
         def construct(current, wordDict, memo={}):
             if current in memo:
